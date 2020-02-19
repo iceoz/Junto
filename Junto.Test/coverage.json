@@ -1860,7 +1860,8 @@
             "88": 0,
             "89": 0,
             "90": 0,
-            "92": 2
+            "91": 0,
+            "93": 2
           },
           "Branches": [
             {
@@ -1882,7 +1883,7 @@
             {
               "Line": 83,
               "Offset": 17,
-              "EndOffset": 106,
+              "EndOffset": 109,
               "Path": 1,
               "Ordinal": 1,
               "Hits": 0
@@ -1890,7 +1891,7 @@
             {
               "Line": 86,
               "Offset": 67,
-              "EndOffset": 134,
+              "EndOffset": 137,
               "Path": 1,
               "Ordinal": 3,
               "Hits": 2
@@ -1901,17 +1902,18 @@
       "Junto.Infra.Repository.UserRepository/<GetByLoginPassword>d__6": {
         "System.Void Junto.Infra.Repository.UserRepository/<GetByLoginPassword>d__6::MoveNext()": {
           "Lines": {
-            "95": 2,
-            "97": 2,
+            "96": 2,
             "98": 2,
-            "100": 0,
+            "99": 2,
             "101": 0,
             "102": 0,
-            "104": 2
+            "103": 0,
+            "104": 0,
+            "106": 2
           },
           "Branches": [
             {
-              "Line": 95,
+              "Line": 96,
               "Offset": 62,
               "EndOffset": 71,
               "Path": 0,
@@ -1919,7 +1921,7 @@
               "Hits": 2
             },
             {
-              "Line": 98,
+              "Line": 99,
               "Offset": 281,
               "EndOffset": 283,
               "Path": 0,
@@ -1927,17 +1929,17 @@
               "Hits": 0
             },
             {
-              "Line": 95,
+              "Line": 96,
               "Offset": 62,
-              "EndOffset": 320,
+              "EndOffset": 323,
               "Path": 1,
               "Ordinal": 1,
               "Hits": 0
             },
             {
-              "Line": 98,
+              "Line": 99,
               "Offset": 281,
-              "EndOffset": 348,
+              "EndOffset": 351,
               "Path": 1,
               "Ordinal": 3,
               "Hits": 2
@@ -1948,17 +1950,18 @@
       "Junto.Infra.Repository.UserRepository/<GetOne>d__7": {
         "System.Void Junto.Infra.Repository.UserRepository/<GetOne>d__7::MoveNext()": {
           "Lines": {
-            "107": 9,
             "109": 9,
-            "110": 9,
-            "112": 0,
-            "113": 0,
+            "111": 9,
+            "112": 9,
             "114": 0,
-            "116": 9
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "119": 9
           },
           "Branches": [
             {
-              "Line": 107,
+              "Line": 109,
               "Offset": 45,
               "EndOffset": 54,
               "Path": 0,
@@ -1966,7 +1969,7 @@
               "Hits": 9
             },
             {
-              "Line": 110,
+              "Line": 112,
               "Offset": 197,
               "EndOffset": 199,
               "Path": 0,
@@ -1974,17 +1977,17 @@
               "Hits": 0
             },
             {
-              "Line": 107,
+              "Line": 109,
               "Offset": 45,
-              "EndOffset": 236,
+              "EndOffset": 239,
               "Path": 1,
               "Ordinal": 1,
               "Hits": 0
             },
             {
-              "Line": 110,
+              "Line": 112,
               "Offset": 197,
-              "EndOffset": 264,
+              "EndOffset": 267,
               "Path": 1,
               "Ordinal": 3,
               "Hits": 9
@@ -1995,27 +1998,28 @@
       "Junto.Infra.Repository.UserRepository/<Update>d__8": {
         "System.Void Junto.Infra.Repository.UserRepository/<Update>d__8::MoveNext()": {
           "Lines": {
-            "119": 2,
-            "120": 2,
+            "122": 2,
             "123": 2,
-            "124": 2,
             "126": 2,
             "127": 2,
             "129": 2,
-            "131": 2,
-            "133": 0,
-            "134": 0,
-            "135": 0,
+            "130": 2,
+            "132": 2,
+            "134": 2,
             "136": 0,
-            "138": 2,
-            "139": 2,
-            "140": 2,
-            "142": 0,
-            "143": 2
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "142": 2,
+            "143": 2,
+            "144": 2,
+            "146": 0,
+            "147": 2
           },
           "Branches": [
             {
-              "Line": 119,
+              "Line": 122,
               "Offset": 15,
               "EndOffset": 26,
               "Path": 0,
@@ -2023,7 +2027,7 @@
               "Hits": 2
             },
             {
-              "Line": 120,
+              "Line": 123,
               "Offset": 51,
               "EndOffset": 55,
               "Path": 0,
@@ -2031,7 +2035,7 @@
               "Hits": 2
             },
             {
-              "Line": 120,
+              "Line": 123,
               "Offset": 57,
               "EndOffset": 68,
               "Path": 0,
@@ -2039,7 +2043,7 @@
               "Hits": 2
             },
             {
-              "Line": 120,
+              "Line": 123,
               "Offset": 51,
               "EndOffset": 75,
               "Path": 1,
@@ -2047,7 +2051,7 @@
               "Hits": 2
             },
             {
-              "Line": 120,
+              "Line": 123,
               "Offset": 77,
               "EndOffset": 108,
               "Path": 0,
@@ -2055,7 +2059,7 @@
               "Hits": 2
             },
             {
-              "Line": 124,
+              "Line": 127,
               "Offset": 152,
               "EndOffset": 154,
               "Path": 0,
@@ -2063,7 +2067,7 @@
               "Hits": 0
             },
             {
-              "Line": 120,
+              "Line": 123,
               "Offset": 77,
               "EndOffset": 194,
               "Path": 1,
@@ -2071,7 +2075,7 @@
               "Hits": 0
             },
             {
-              "Line": 124,
+              "Line": 127,
               "Offset": 152,
               "EndOffset": 222,
               "Path": 1,
@@ -2079,7 +2083,7 @@
               "Hits": 2
             },
             {
-              "Line": 127,
+              "Line": 130,
               "Offset": 321,
               "EndOffset": 323,
               "Path": 0,
@@ -2087,7 +2091,7 @@
               "Hits": 0
             },
             {
-              "Line": 120,
+              "Line": 123,
               "Offset": 77,
               "EndOffset": 364,
               "Path": 2,
@@ -2095,7 +2099,7 @@
               "Hits": 0
             },
             {
-              "Line": 127,
+              "Line": 130,
               "Offset": 321,
               "EndOffset": 393,
               "Path": 1,
@@ -2103,7 +2107,7 @@
               "Hits": 2
             },
             {
-              "Line": 129,
+              "Line": 132,
               "Offset": 435,
               "EndOffset": 437,
               "Path": 0,
@@ -2111,7 +2115,7 @@
               "Hits": 0
             },
             {
-              "Line": 120,
+              "Line": 123,
               "Offset": 77,
               "EndOffset": 478,
               "Path": 3,
@@ -2119,7 +2123,7 @@
               "Hits": 0
             },
             {
-              "Line": 129,
+              "Line": 132,
               "Offset": 435,
               "EndOffset": 507,
               "Path": 1,
@@ -2127,7 +2131,7 @@
               "Hits": 2
             },
             {
-              "Line": 133,
+              "Line": 136,
               "Offset": 557,
               "EndOffset": 564,
               "Path": 1,
@@ -2135,121 +2139,121 @@
               "Hits": 0
             },
             {
-              "Line": 135,
-              "Offset": 589,
-              "EndOffset": 591,
+              "Line": 139,
+              "Offset": 622,
+              "EndOffset": 624,
               "Path": 0,
               "Ordinal": 18,
               "Hits": 0
             },
             {
-              "Line": 135,
-              "Offset": 589,
-              "EndOffset": 595,
+              "Line": 139,
+              "Offset": 622,
+              "EndOffset": 628,
               "Path": 1,
               "Ordinal": 19,
               "Hits": 0
             },
             {
-              "Line": 135,
-              "Offset": 623,
-              "EndOffset": 625,
+              "Line": 139,
+              "Offset": 656,
+              "EndOffset": 658,
               "Path": 0,
               "Ordinal": 20,
               "Hits": 0
             },
             {
-              "Line": 120,
+              "Line": 123,
               "Offset": 57,
-              "EndOffset": 666,
+              "EndOffset": 699,
               "Path": 1,
               "Ordinal": 5,
               "Hits": 0
             },
             {
-              "Line": 135,
-              "Offset": 623,
-              "EndOffset": 695,
+              "Line": 139,
+              "Offset": 656,
+              "EndOffset": 728,
               "Path": 1,
               "Ordinal": 21,
               "Hits": 0
             },
             {
-              "Line": 133,
+              "Line": 136,
               "Offset": 557,
-              "EndOffset": 713,
+              "EndOffset": 746,
               "Path": 0,
               "Ordinal": 16,
               "Hits": 0
             },
             {
-              "Line": 139,
-              "Offset": 773,
-              "EndOffset": 775,
+              "Line": 143,
+              "Offset": 806,
+              "EndOffset": 808,
               "Path": 0,
               "Ordinal": 22,
               "Hits": 0
             },
             {
-              "Line": 119,
+              "Line": 122,
               "Offset": 15,
-              "EndOffset": 816,
+              "EndOffset": 849,
               "Path": 1,
               "Ordinal": 1,
               "Hits": 0
             },
             {
-              "Line": 139,
-              "Offset": 773,
-              "EndOffset": 845,
+              "Line": 143,
+              "Offset": 806,
+              "EndOffset": 878,
               "Path": 1,
               "Ordinal": 23,
               "Hits": 2
             },
             {
-              "Line": 140,
-              "Offset": 864,
-              "EndOffset": 866,
+              "Line": 144,
+              "Offset": 897,
+              "EndOffset": 899,
               "Path": 0,
               "Ordinal": 24,
               "Hits": 0
             },
             {
-              "Line": 140,
-              "Offset": 877,
-              "EndOffset": 879,
+              "Line": 144,
+              "Offset": 910,
+              "EndOffset": 912,
               "Path": 0,
               "Ordinal": 26,
               "Hits": 0
             },
             {
-              "Line": 140,
-              "Offset": 877,
-              "EndOffset": 882,
+              "Line": 144,
+              "Offset": 910,
+              "EndOffset": 915,
               "Path": 1,
               "Ordinal": 27,
               "Hits": 0
             },
             {
-              "Line": 140,
-              "Offset": 864,
-              "EndOffset": 895,
+              "Line": 144,
+              "Offset": 897,
+              "EndOffset": 928,
               "Path": 1,
               "Ordinal": 25,
               "Hits": 2
             },
             {
-              "Line": 140,
-              "Offset": 906,
-              "EndOffset": 910,
+              "Line": 144,
+              "Offset": 939,
+              "EndOffset": 943,
               "Path": 1,
               "Ordinal": 29,
               "Hits": 2
             },
             {
-              "Line": 140,
-              "Offset": 906,
-              "EndOffset": 919,
+              "Line": 144,
+              "Offset": 939,
+              "EndOffset": 952,
               "Path": 0,
               "Ordinal": 28,
               "Hits": 0
@@ -2260,17 +2264,18 @@
       "Junto.Infra.Repository.UserRepository/<VerifyIfLoginAlreadyExists>d__9": {
         "System.Void Junto.Infra.Repository.UserRepository/<VerifyIfLoginAlreadyExists>d__9::MoveNext()": {
           "Lines": {
-            "146": 2,
-            "148": 2,
-            "149": 2,
-            "151": 0,
-            "152": 0,
-            "153": 0,
-            "155": 2
+            "150": 2,
+            "152": 2,
+            "153": 2,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "160": 2
           },
           "Branches": [
             {
-              "Line": 146,
+              "Line": 150,
               "Offset": 62,
               "EndOffset": 71,
               "Path": 0,
@@ -2278,7 +2283,7 @@
               "Hits": 2
             },
             {
-              "Line": 149,
+              "Line": 153,
               "Offset": 281,
               "EndOffset": 283,
               "Path": 0,
@@ -2286,17 +2291,17 @@
               "Hits": 0
             },
             {
-              "Line": 146,
+              "Line": 150,
               "Offset": 62,
-              "EndOffset": 320,
+              "EndOffset": 323,
               "Path": 1,
               "Ordinal": 1,
               "Hits": 0
             },
             {
-              "Line": 149,
+              "Line": 153,
               "Offset": 281,
-              "EndOffset": 348,
+              "EndOffset": 351,
               "Path": 1,
               "Ordinal": 3,
               "Hits": 2
@@ -2307,17 +2312,18 @@
       "Junto.Infra.Repository.UserRepository/<VerifyIfLoginAlreadyExists>d__10": {
         "System.Void Junto.Infra.Repository.UserRepository/<VerifyIfLoginAlreadyExists>d__10::MoveNext()": {
           "Lines": {
-            "158": 2,
-            "160": 2,
-            "161": 2,
-            "163": 0,
-            "164": 0,
-            "165": 0,
-            "167": 2
+            "163": 2,
+            "165": 2,
+            "166": 2,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "173": 2
           },
           "Branches": [
             {
-              "Line": 158,
+              "Line": 163,
               "Offset": 45,
               "EndOffset": 54,
               "Path": 0,
@@ -2325,7 +2331,7 @@
               "Hits": 2
             },
             {
-              "Line": 161,
+              "Line": 166,
               "Offset": 197,
               "EndOffset": 199,
               "Path": 0,
@@ -2333,17 +2339,17 @@
               "Hits": 0
             },
             {
-              "Line": 158,
+              "Line": 163,
               "Offset": 45,
-              "EndOffset": 236,
+              "EndOffset": 239,
               "Path": 1,
               "Ordinal": 1,
               "Hits": 0
             },
             {
-              "Line": 161,
+              "Line": 166,
               "Offset": 197,
-              "EndOffset": 264,
+              "EndOffset": 267,
               "Path": 1,
               "Ordinal": 3,
               "Hits": 2
