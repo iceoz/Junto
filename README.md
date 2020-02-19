@@ -23,9 +23,9 @@ docker build -t junto:1 .
 docker run --name junto -p 5000:80 junto:1
 ```
 
-### Calculando métricas
+### Calculando cobertura de testes
 
-acesse a pasta de testes e execute
+acesse a pasta de Junto.Test e execute
 
 ```
 dotnet test /p:CollectCoverage=true
