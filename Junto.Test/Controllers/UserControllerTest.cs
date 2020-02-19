@@ -261,7 +261,7 @@ namespace Junto.Test.Controllers
         public async Task UpdateUserPasswordSuccess()
         {
             var password = "test1234";
-            var passwordSha256 = 
+            var passwordSha256 = Application.Helpers.Sha256Helper.Convert(password);
 
             var updateUser = new UpdateUserPassword() { Password = password };
 
@@ -269,13 +269,15 @@ namespace Junto.Test.Controllers
             context.User.Add(new User() { Id = 15, Login = "test987", Name = "test654", Password = "test123" });
             await context.SaveChangesAsync();
 
+            var httpContext = new Mock<IHttpContextAccessor>();
+            httpContext.Setup(x => x.HttpContext.User.FindFirst(It.IsAny<Predicate<Claim>>())).Returns(new Claim(ClaimTypes.NameIdentifier, "15"));
+
             var repository = new UserRepository(context, new Mock<ILogger<UserRepository>>().Object);
             var service = new UserService(repository);
-            var controller = new UserController(service, new Mock<IHttpContextAccessor>().Object);
-            var result = await controller.Update(updateUser);
+            var controller = new UserController(service, httpContext.Object);
+            var result = await controller.UpdatePassword(updateUser);
             Assert.IsType<OkResult>(result);
-            context.User.First().Should().BeOfType<User>().Which.Name.Should().Be(updateUser.Name);
-            context.User.First().Should().BeOfType<User>().Which.Login.Should().Be(updateUser.Login);
+            context.User.First().Should().BeOfType<User>().Which.Password.Should().Be(passwordSha256);
         }
 
         [Fact]

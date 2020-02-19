@@ -1,5 +1,13 @@
 ﻿################################################################################
 # Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
 ################################################################################
-
-/Junto.Api/bin/Debug/netcoreapp3.1
+/.vs
+/Junto.Api/bin
+/Junto.Api/obj
+/Junto.Application/bin
+/Junto.Application/obj
+/Junto.Infra/bin
+/Junto.Infra/obj
+/Junto.Test/bin
+/Junto.Test/obj
+junto.db
