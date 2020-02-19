@@ -1,379 +1,20 @@
 {
   "Junto.Api.dll": {
-    "D:\\Sources\\Junto\\Junto.Api\\Program.cs": {
-      "Junto.Program": {
-        "System.Void Junto.Program::Main(System.String[])": {
-          "Lines": {
-            "16": 0,
-            "17": 0,
-            "18": 0
-          },
-          "Branches": []
-        },
-        "Microsoft.Extensions.Hosting.IHostBuilder Junto.Program::CreateHostBuilder(System.String[])": {
-          "Lines": {
-            "21": 0,
-            "22": 0,
-            "23": 0,
-            "24": 0,
-            "25": 0,
-            "27": 0,
-            "28": 0,
-            "29": 0,
-            "30": 0,
-            "31": 0,
-            "32": 0,
-            "33": 0,
-            "34": 0,
-            "35": 0,
-            "36": 0,
-            "37": 0,
-            "38": 0,
-            "39": 0,
-            "40": 0,
-            "41": 0,
-            "42": 0,
-            "43": 0
-          },
-          "Branches": [
-            {
-              "Line": 27,
-              "Offset": 46,
-              "EndOffset": 48,
-              "Path": 0,
-              "Ordinal": 0,
-              "Hits": 0
-            },
-            {
-              "Line": 27,
-              "Offset": 46,
-              "EndOffset": 71,
-              "Path": 1,
-              "Ordinal": 1,
-              "Hits": 0
-            },
-            {
-              "Line": 27,
-              "Offset": 82,
-              "EndOffset": 84,
-              "Path": 0,
-              "Ordinal": 2,
-              "Hits": 0
-            },
-            {
-              "Line": 27,
-              "Offset": 82,
-              "EndOffset": 107,
-              "Path": 1,
-              "Ordinal": 3,
-              "Hits": 0
-            },
-            {
-              "Line": 27,
-              "Offset": 118,
-              "EndOffset": 120,
-              "Path": 0,
-              "Ordinal": 4,
-              "Hits": 0
-            },
-            {
-              "Line": 27,
-              "Offset": 118,
-              "EndOffset": 143,
-              "Path": 1,
-              "Ordinal": 5,
-              "Hits": 0
-            }
-          ]
-        }
-      }
-    },
-    "D:\\Sources\\Junto\\Junto.Api\\Startup.cs": {
-      "Junto.Startup": {
-        "Microsoft.Extensions.Configuration.IConfiguration Junto.Startup::get_Configuration()": {
-          "Lines": {
-            "30": 0
-          },
-          "Branches": []
-        },
-        "System.Void Junto.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
-          "Lines": {
-            "34": 0,
-            "35": 0,
-            "36": 0,
-            "37": 0,
-            "38": 0,
-            "40": 0,
-            "41": 0,
-            "42": 0,
-            "44": 0,
-            "46": 0,
-            "47": 0,
-            "48": 0,
-            "49": 0,
-            "50": 0,
-            "51": 0,
-            "52": 0,
-            "53": 0,
-            "54": 0,
-            "55": 0,
-            "56": 0,
-            "57": 0,
-            "58": 0,
-            "59": 0,
-            "60": 0,
-            "61": 0,
-            "62": 0,
-            "63": 0,
-            "64": 0,
-            "65": 0,
-            "66": 0,
-            "67": 0,
-            "68": 0,
-            "69": 0,
-            "70": 0,
-            "71": 0,
-            "72": 0,
-            "73": 0,
-            "74": 0,
-            "75": 0,
-            "77": 0,
-            "78": 0,
-            "79": 0,
-            "80": 0,
-            "81": 0,
-            "82": 0,
-            "83": 0,
-            "84": 0,
-            "85": 0,
-            "86": 0,
-            "87": 0,
-            "88": 0,
-            "89": 0,
-            "90": 0,
-            "91": 0,
-            "92": 0,
-            "93": 0,
-            "94": 0,
-            "95": 0
-          },
-          "Branches": [
-            {
-              "Line": 37,
-              "Offset": 22,
-              "EndOffset": 24,
-              "Path": 0,
-              "Ordinal": 0,
-              "Hits": 0
-            },
-            {
-              "Line": 37,
-              "Offset": 22,
-              "EndOffset": 47,
-              "Path": 1,
-              "Ordinal": 1,
-              "Hits": 0
-            },
-            {
-              "Line": 40,
-              "Offset": 69,
-              "EndOffset": 71,
-              "Path": 0,
-              "Ordinal": 2,
-              "Hits": 0
-            },
-            {
-              "Line": 40,
-              "Offset": 69,
-              "EndOffset": 94,
-              "Path": 1,
-              "Ordinal": 3,
-              "Hits": 0
-            },
-            {
-              "Line": 40,
-              "Offset": 105,
-              "EndOffset": 107,
-              "Path": 0,
-              "Ordinal": 4,
-              "Hits": 0
-            },
-            {
-              "Line": 40,
-              "Offset": 105,
-              "EndOffset": 130,
-              "Path": 1,
-              "Ordinal": 5,
-              "Hits": 0
-            },
-            {
-              "Line": 44,
-              "Offset": 143,
-              "EndOffset": 145,
-              "Path": 0,
-              "Ordinal": 6,
-              "Hits": 0
-            },
-            {
-              "Line": 44,
-              "Offset": 143,
-              "EndOffset": 168,
-              "Path": 1,
-              "Ordinal": 7,
-              "Hits": 0
-            },
-            {
-              "Line": 46,
-              "Offset": 181,
-              "EndOffset": 183,
-              "Path": 0,
-              "Ordinal": 8,
-              "Hits": 0
-            },
-            {
-              "Line": 46,
-              "Offset": 181,
-              "EndOffset": 206,
-              "Path": 1,
-              "Ordinal": 9,
-              "Hits": 0
-            },
-            {
-              "Line": 77,
-              "Offset": 226,
-              "EndOffset": 228,
-              "Path": 0,
-              "Ordinal": 10,
-              "Hits": 0
-            },
-            {
-              "Line": 77,
-              "Offset": 226,
-              "EndOffset": 251,
-              "Path": 1,
-              "Ordinal": 11,
-              "Hits": 0
-            }
-          ]
-        },
-        "System.Void Junto.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
-          "Lines": {
-            "99": 0,
-            "100": 0,
-            "101": 0,
-            "102": 0,
-            "103": 0,
-            "105": 0,
-            "107": 0,
-            "108": 0,
-            "109": 0,
-            "110": 0,
-            "112": 0,
-            "113": 0,
-            "115": 0,
-            "116": 0,
-            "117": 0,
-            "118": 0,
-            "119": 0,
-            "121": 0,
-            "122": 0,
-            "123": 0,
-            "124": 0,
-            "125": 0
-          },
-          "Branches": [
-            {
-              "Line": 100,
-              "Offset": 9,
-              "EndOffset": 11,
-              "Path": 0,
-              "Ordinal": 0,
-              "Hits": 0
-            },
-            {
-              "Line": 100,
-              "Offset": 9,
-              "EndOffset": 20,
-              "Path": 1,
-              "Ordinal": 1,
-              "Hits": 0
-            },
-            {
-              "Line": 107,
-              "Offset": 34,
-              "EndOffset": 36,
-              "Path": 0,
-              "Ordinal": 2,
-              "Hits": 0
-            },
-            {
-              "Line": 107,
-              "Offset": 34,
-              "EndOffset": 59,
-              "Path": 1,
-              "Ordinal": 3,
-              "Hits": 0
-            },
-            {
-              "Line": 116,
-              "Offset": 94,
-              "EndOffset": 96,
-              "Path": 0,
-              "Ordinal": 4,
-              "Hits": 0
-            },
-            {
-              "Line": 116,
-              "Offset": 94,
-              "EndOffset": 119,
-              "Path": 1,
-              "Ordinal": 5,
-              "Hits": 0
-            },
-            {
-              "Line": 121,
-              "Offset": 132,
-              "EndOffset": 134,
-              "Path": 0,
-              "Ordinal": 6,
-              "Hits": 0
-            },
-            {
-              "Line": 121,
-              "Offset": 132,
-              "EndOffset": 157,
-              "Path": 1,
-              "Ordinal": 7,
-              "Hits": 0
-            }
-          ]
-        },
-        "System.Void Junto.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
-          "Lines": {
-            "25": 0,
-            "26": 0,
-            "27": 0,
-            "28": 0
-          },
-          "Branches": []
-        }
-      }
-    },
     "D:\\Sources\\Junto\\Junto.Api\\Infra\\CustomExceptionFilter.cs": {
       "Junto.Api.Infra.CustomExceptionFilter": {
         "System.Void Junto.Api.Infra.CustomExceptionFilter::OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)": {
           "Lines": {
-            "14": 0,
-            "15": 0,
-            "18": 0,
-            "19": 0,
-            "20": 0,
-            "23": 0,
-            "24": 0,
-            "25": 0,
-            "29": 0,
-            "30": 0,
-            "31": 0
+            "14": 4,
+            "15": 4,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "23": 3,
+            "24": 3,
+            "25": 3,
+            "29": 4,
+            "30": 4,
+            "31": 4
           },
           "Branches": [
             {
@@ -382,7 +23,7 @@
               "EndOffset": 20,
               "Path": 1,
               "Ordinal": 1,
-              "Hits": 0
+              "Hits": 1
             },
             {
               "Line": 15,
@@ -390,7 +31,7 @@
               "EndOffset": 46,
               "Path": 0,
               "Ordinal": 0,
-              "Hits": 0
+              "Hits": 3
             }
           ]
         }
@@ -400,16 +41,16 @@
       "Junto.Api.Infra.FluentValidation": {
         "Microsoft.AspNetCore.Mvc.IActionResult Junto.Api.Infra.FluentValidation::FormatResponse(Microsoft.AspNetCore.Mvc.ActionContext)": {
           "Lines": {
-            "12": 0,
-            "13": 0,
-            "14": 0,
-            "16": 0,
-            "17": 0,
-            "18": 0,
-            "19": 0,
-            "20": 0,
-            "22": 0,
-            "23": 0
+            "12": 1,
+            "13": 5,
+            "14": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "22": 1,
+            "23": 1
           },
           "Branches": [
             {
@@ -418,7 +59,7 @@
               "EndOffset": 25,
               "Path": 0,
               "Ordinal": 0,
-              "Hits": 0
+              "Hits": 2
             },
             {
               "Line": 13,
@@ -426,9 +67,25 @@
               "EndOffset": 48,
               "Path": 1,
               "Ordinal": 1,
-              "Hits": 0
+              "Hits": 3
             }
           ]
+        }
+      }
+    },
+    "D:\\Sources\\Junto\\Junto.Api\\Infra\\FluentValidationModelStateErrors.cs": {
+      "Junto.Api.Infra.FluentValidationModelStateErrors": {
+        "System.String Junto.Api.Infra.FluentValidationModelStateErrors::get_Message()": {
+          "Lines": {
+            "10": 3
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<System.String> Junto.Api.Infra.FluentValidationModelStateErrors::get_Errors()": {
+          "Lines": {
+            "11": 6
+          },
+          "Branches": []
         }
       }
     },
@@ -454,11 +111,11 @@
         },
         "System.Void Junto.Api.Controllers.AuthController::.ctor(Junto.Application.Services.Interface.IUserService,Microsoft.Extensions.Configuration.IConfiguration)": {
           "Lines": {
-            "24": 2,
-            "25": 2,
-            "26": 2,
-            "27": 2,
-            "28": 2
+            "24": 3,
+            "25": 3,
+            "26": 3,
+            "27": 3,
+            "28": 3
           },
           "Branches": []
         }
@@ -466,14 +123,14 @@
       "Junto.Api.Controllers.AuthController/<CreateToken>d__3": {
         "System.Void Junto.Api.Controllers.AuthController/<CreateToken>d__3::MoveNext()": {
           "Lines": {
-            "33": 2,
-            "34": 2,
-            "35": 0,
+            "33": 3,
+            "34": 3,
+            "35": 1,
             "37": 2,
             "39": 2,
             "40": 1,
             "42": 1,
-            "43": 2
+            "43": 3
           },
           "Branches": [
             {
@@ -482,7 +139,7 @@
               "EndOffset": 28,
               "Path": 0,
               "Ordinal": 0,
-              "Hits": 0
+              "Hits": 1
             },
             {
               "Line": 34,
@@ -539,11 +196,11 @@
         },
         "System.Void Junto.Api.Controllers.UserController::.ctor(Junto.Application.Services.Interface.IUserService,Microsoft.AspNetCore.Http.IHttpContextAccessor)": {
           "Lines": {
-            "24": 14,
-            "25": 14,
-            "26": 14,
-            "27": 14,
-            "28": 14
+            "24": 17,
+            "25": 17,
+            "26": 17,
+            "27": 17,
+            "28": 17
           },
           "Branches": []
         }
@@ -600,10 +257,10 @@
       "Junto.Api.Controllers.UserController/<Delete>d__10": {
         "System.Void Junto.Api.Controllers.UserController/<Delete>d__10::MoveNext()": {
           "Lines": {
-            "80": 0,
-            "81": 0,
-            "82": 0,
-            "83": 0
+            "80": 3,
+            "81": 3,
+            "82": 1,
+            "83": 1
           },
           "Branches": []
         }
@@ -648,10 +305,10 @@
         },
         "System.Void Junto.Application.Services.UserService::.ctor(Junto.Application.Repository.IUserRepository)": {
           "Lines": {
-            "20": 16,
-            "21": 16,
-            "22": 16,
-            "23": 16
+            "20": 20,
+            "21": 20,
+            "22": 20,
+            "23": 20
           },
           "Branches": []
         }
@@ -864,13 +521,13 @@
       "Junto.Application.Services.UserService/<Delete>d__5": {
         "System.Void Junto.Application.Services.UserService/<Delete>d__5::MoveNext()": {
           "Lines": {
-            "62": 0,
-            "64": 0,
-            "66": 0,
-            "67": 0,
-            "69": 0,
-            "70": 0,
-            "71": 0
+            "62": 3,
+            "64": 3,
+            "66": 3,
+            "67": 1,
+            "69": 2,
+            "70": 1,
+            "71": 1
           },
           "Branches": [
             {
@@ -879,7 +536,7 @@
               "EndOffset": 25,
               "Path": 0,
               "Ordinal": 0,
-              "Hits": 0
+              "Hits": 3
             },
             {
               "Line": 64,
@@ -895,7 +552,7 @@
               "EndOffset": 130,
               "Path": 1,
               "Ordinal": 3,
-              "Hits": 0
+              "Hits": 3
             },
             {
               "Line": 66,
@@ -903,7 +560,7 @@
               "EndOffset": 175,
               "Path": 0,
               "Ordinal": 4,
-              "Hits": 0
+              "Hits": 1
             },
             {
               "Line": 66,
@@ -911,7 +568,7 @@
               "EndOffset": 186,
               "Path": 1,
               "Ordinal": 5,
-              "Hits": 0
+              "Hits": 2
             },
             {
               "Line": 69,
@@ -935,7 +592,7 @@
               "EndOffset": 290,
               "Path": 1,
               "Ordinal": 7,
-              "Hits": 0
+              "Hits": 2
             },
             {
               "Line": 69,
@@ -943,7 +600,7 @@
               "EndOffset": 318,
               "Path": 0,
               "Ordinal": 8,
-              "Hits": 0
+              "Hits": 1
             },
             {
               "Line": 69,
@@ -951,7 +608,7 @@
               "EndOffset": 329,
               "Path": 1,
               "Ordinal": 9,
-              "Hits": 0
+              "Hits": 1
             }
           ]
         }
@@ -1308,13 +965,13 @@
       "Junto.Application.Models.UserAuthentication": {
         "System.String Junto.Application.Models.UserAuthentication::get_Login()": {
           "Lines": {
-            "9": 5
+            "9": 23
           },
           "Branches": []
         },
         "System.String Junto.Application.Models.UserAuthentication::get_Password()": {
           "Lines": {
-            "10": 5
+            "10": 23
           },
           "Branches": []
         }
@@ -1440,11 +1097,11 @@
       "Junto.Application.Models.Validator.UserAuthenticationValidator": {
         "System.Void Junto.Application.Models.Validator.UserAuthenticationValidator::.ctor()": {
           "Lines": {
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "13": 0,
-            "14": 0
+            "10": 6,
+            "11": 6,
+            "12": 6,
+            "13": 6,
+            "14": 6
           },
           "Branches": []
         }
@@ -1543,17 +1200,9 @@
       "Junto.Application.Exceptions.InvalidUserException": {
         "System.Void Junto.Application.Exceptions.InvalidUserException::.ctor(System.String)": {
           "Lines": {
-            "9": 4,
-            "10": 4,
-            "11": 4
-          },
-          "Branches": []
-        },
-        "System.Void Junto.Application.Exceptions.InvalidUserException::.ctor(System.String,System.Exception)": {
-          "Lines": {
-            "13": 0,
-            "14": 0,
-            "15": 0
+            "9": 6,
+            "10": 6,
+            "11": 6
           },
           "Branches": []
         }
@@ -1563,17 +1212,9 @@
       "Junto.Application.Exceptions.NotFoundException": {
         "System.Void Junto.Application.Exceptions.NotFoundException::.ctor(System.String)": {
           "Lines": {
-            "9": 2,
-            "10": 2,
-            "11": 2
-          },
-          "Branches": []
-        },
-        "System.Void Junto.Application.Exceptions.NotFoundException::.ctor(System.String,System.Exception)": {
-          "Lines": {
-            "13": 0,
-            "14": 0,
-            "15": 0
+            "9": 3,
+            "10": 3,
+            "11": 3
           },
           "Branches": []
         }
@@ -1583,17 +1224,9 @@
       "Junto.Application.Exceptions.UnexpectedUserException": {
         "System.Void Junto.Application.Exceptions.UnexpectedUserException::.ctor(System.String)": {
           "Lines": {
-            "9": 3,
-            "10": 3,
-            "11": 3
-          },
-          "Branches": []
-        },
-        "System.Void Junto.Application.Exceptions.UnexpectedUserException::.ctor(System.String,System.Exception)": {
-          "Lines": {
-            "13": 0,
-            "14": 0,
-            "15": 0
+            "9": 5,
+            "10": 5,
+            "11": 5
           },
           "Branches": []
         }
@@ -1603,33 +1236,33 @@
       "Junto.Application.Entity.User": {
         "System.Int32 Junto.Application.Entity.User::get_Id()": {
           "Lines": {
-            "21": 19
+            "21": 21
           },
           "Branches": []
         },
         "System.String Junto.Application.Entity.User::get_Name()": {
           "Lines": {
-            "22": 21
+            "22": 23
           },
           "Branches": []
         },
         "System.String Junto.Application.Entity.User::get_Login()": {
           "Lines": {
-            "23": 21
+            "23": 23
           },
           "Branches": []
         },
         "System.String Junto.Application.Entity.User::get_Password()": {
           "Lines": {
-            "24": 16
+            "24": 18
           },
           "Branches": []
         },
         "System.Void Junto.Application.Entity.User::.ctor()": {
           "Lines": {
-            "9": 11,
-            "10": 11,
-            "12": 11
+            "9": 13,
+            "10": 13,
+            "12": 13
           },
           "Branches": []
         },
@@ -1652,12 +1285,12 @@
       "Junto.Infra.Repository.UserRepository": {
         "System.Void Junto.Infra.Repository.UserRepository::.ctor(Junto.Infra.Config.JuntoContext,Microsoft.Extensions.Logging.ILogger`1<Junto.Infra.Repository.UserRepository>)": {
           "Lines": {
-            "19": 13,
-            "20": 13,
-            "21": 13,
-            "22": 13,
-            "23": 13,
-            "24": 13
+            "19": 16,
+            "20": 16,
+            "21": 16,
+            "22": 16,
+            "23": 16,
+            "24": 16
           },
           "Branches": []
         }
@@ -1955,24 +1588,24 @@
       "Junto.Infra.Repository.UserRepository/<Delete>d__4": {
         "System.Void Junto.Infra.Repository.UserRepository/<Delete>d__4::MoveNext()": {
           "Lines": {
-            "55": 0,
-            "56": 0,
-            "59": 0,
-            "60": 0,
-            "62": 0,
-            "63": 0,
-            "65": 0,
-            "67": 0,
+            "55": 1,
+            "56": 1,
+            "59": 1,
+            "60": 1,
+            "62": 1,
+            "63": 1,
+            "65": 1,
+            "67": 1,
             "69": 0,
             "70": 0,
             "71": 0,
             "72": 0,
             "73": 0,
-            "75": 0,
-            "76": 0,
-            "77": 0,
+            "75": 1,
+            "76": 1,
+            "77": 1,
             "79": 0,
-            "80": 0
+            "80": 1
           },
           "Branches": [
             {
@@ -1981,7 +1614,7 @@
               "EndOffset": 26,
               "Path": 0,
               "Ordinal": 0,
-              "Hits": 0
+              "Hits": 1
             },
             {
               "Line": 56,
@@ -1989,7 +1622,7 @@
               "EndOffset": 55,
               "Path": 0,
               "Ordinal": 2,
-              "Hits": 0
+              "Hits": 1
             },
             {
               "Line": 56,
@@ -1997,7 +1630,7 @@
               "EndOffset": 68,
               "Path": 0,
               "Ordinal": 4,
-              "Hits": 0
+              "Hits": 1
             },
             {
               "Line": 56,
@@ -2005,7 +1638,7 @@
               "EndOffset": 75,
               "Path": 1,
               "Ordinal": 3,
-              "Hits": 0
+              "Hits": 1
             },
             {
               "Line": 56,
@@ -2013,7 +1646,7 @@
               "EndOffset": 108,
               "Path": 0,
               "Ordinal": 6,
-              "Hits": 0
+              "Hits": 1
             },
             {
               "Line": 60,
@@ -2037,7 +1670,7 @@
               "EndOffset": 222,
               "Path": 1,
               "Ordinal": 11,
-              "Hits": 0
+              "Hits": 1
             },
             {
               "Line": 63,
@@ -2061,7 +1694,7 @@
               "EndOffset": 393,
               "Path": 1,
               "Ordinal": 13,
-              "Hits": 0
+              "Hits": 1
             },
             {
               "Line": 65,
@@ -2085,7 +1718,7 @@
               "EndOffset": 507,
               "Path": 1,
               "Ordinal": 15,
-              "Hits": 0
+              "Hits": 1
             },
             {
               "Line": 69,
@@ -2165,7 +1798,7 @@
               "EndOffset": 878,
               "Path": 1,
               "Ordinal": 23,
-              "Hits": 0
+              "Hits": 1
             },
             {
               "Line": 77,
@@ -2197,7 +1830,7 @@
               "EndOffset": 928,
               "Path": 1,
               "Ordinal": 25,
-              "Hits": 0
+              "Hits": 1
             },
             {
               "Line": 77,
@@ -2205,7 +1838,7 @@
               "EndOffset": 943,
               "Path": 1,
               "Ordinal": 29,
-              "Hits": 0
+              "Hits": 1
             },
             {
               "Line": 77,
@@ -2315,13 +1948,13 @@
       "Junto.Infra.Repository.UserRepository/<GetOne>d__7": {
         "System.Void Junto.Infra.Repository.UserRepository/<GetOne>d__7::MoveNext()": {
           "Lines": {
-            "107": 7,
-            "109": 7,
-            "110": 7,
+            "107": 9,
+            "109": 9,
+            "110": 9,
             "112": 0,
             "113": 0,
             "114": 0,
-            "116": 7
+            "116": 9
           },
           "Branches": [
             {
@@ -2330,7 +1963,7 @@
               "EndOffset": 54,
               "Path": 0,
               "Ordinal": 0,
-              "Hits": 7
+              "Hits": 9
             },
             {
               "Line": 110,
@@ -2354,7 +1987,7 @@
               "EndOffset": 264,
               "Path": 1,
               "Ordinal": 3,
-              "Hits": 7
+              "Hits": 9
             }
           ]
         }
@@ -2723,7 +2356,7 @@
       "Junto.Infra.Config.JuntoContext": {
         "Microsoft.EntityFrameworkCore.DbSet`1<Junto.Application.Entity.User> Junto.Infra.Config.JuntoContext::get_User()": {
           "Lines": {
-            "19": 43
+            "19": 51
           },
           "Branches": []
         },
@@ -2745,9 +2378,9 @@
         },
         "System.Void Junto.Infra.Config.JuntoContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<Junto.Infra.Config.JuntoContext>)": {
           "Lines": {
-            "15": 13,
-            "16": 13,
-            "17": 13
+            "15": 16,
+            "16": 16,
+            "17": 16
           },
           "Branches": []
         }

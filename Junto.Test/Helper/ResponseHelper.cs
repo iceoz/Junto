@@ -8,21 +8,21 @@ namespace Junto.Test.Helper
 {
     public static class ResponseHelper
     {
-        public static T Deserialize<T>(this OkObjectResult result)
+        public static T Deserialize<T>(this ObjectResult result)
         {
             var json = JsonSerializer.Serialize(result.Value);
             var data = JsonSerializer.Deserialize<T>(json);
             return data;
         }
 
-        public static List<T> ToList<T>(this OkObjectResult result)
+        public static List<T> ToList<T>(this ObjectResult result)
         {
             var json = JsonSerializer.Serialize(result.Value);
             var data = JsonSerializer.Deserialize<List<T>>(json);
             return data;
         }
 
-        public static Dictionary<string, string> ToDictionary(this OkObjectResult result)
+        public static Dictionary<string, string> ToDictionary(this ObjectResult result)
         {
             var json = JsonSerializer.Serialize(result.Value);
             var data = JsonSerializer.Deserialize<Dictionary<string, string>>(json);

@@ -17,9 +17,11 @@ using System.Collections.Generic;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Junto
 {
+    [ExcludeFromCodeCoverage]
     public class Startup
     {
         public Startup(IConfiguration configuration)

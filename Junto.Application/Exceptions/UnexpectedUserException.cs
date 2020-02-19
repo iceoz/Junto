@@ -9,9 +9,5 @@ namespace Junto.Application.Exceptions
         public UnexpectedUserException(string message) : base(message)
         {
         }
-
-        public UnexpectedUserException(string message, Exception innerException) : base(message, innerException)
-        {
-        }
     }
 }

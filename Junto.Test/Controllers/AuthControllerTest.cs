@@ -1,6 +1,8 @@
-﻿using Junto.Api.Controllers;
+﻿using FluentAssertions;
+using Junto.Api.Controllers;
 using Junto.Application.Entity;
 using Junto.Application.Models;
+using Junto.Application.Models.Validator;
 using Junto.Application.Repository;
 using Junto.Application.Services;
 using Junto.Infra.Repository;
@@ -20,6 +22,33 @@ namespace Junto.Test.Controllers
 {
     public class AuthControllerTest
     {
+        [Fact]
+        public async Task NotAuthorizedByMissingUser()
+        {
+            var mockConfiguration = new Mock<IConfiguration>();
+
+            var repository = new UserRepository(DatabaseHelper.GetContext(), new Mock<ILogger<UserRepository>>().Object);
+            var service = new UserService(repository);
+            var controller = new AuthController(service, mockConfiguration.Object);
+            var result = await controller.CreateToken(null);
+            Assert.IsType<UnauthorizedResult>(result);
+        }
+
+        [Theory]
+        [InlineData(null, "teste123")]
+        [InlineData("", "teste123")]
+        [InlineData("a", "teste123")]
+        [InlineData("teste123", null)]
+        [InlineData("teste123", "")]
+        [InlineData("teste123", "a")]
+        public void AuthorizationModelInvalid(string login, string password)
+        {
+            var validator = new UserAuthenticationValidator();
+            var result = validator.Validate(new UserAuthentication() { Login = login, Password = password });
+            Assert.False(result.IsValid);
+            result.Errors.Should().HaveCount(1);
+        }
+
         [Fact]
         public async Task UserNotAuthorized()
         {

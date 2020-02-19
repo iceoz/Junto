@@ -87,6 +87,7 @@ namespace Junto.Infra.Repository
             }
             catch (Exception e)
             {
+                _logger.LogError(exception: e, "error on get all users");
                 return null;
             }
         }
@@ -99,6 +100,7 @@ namespace Junto.Infra.Repository
             }
             catch (Exception e)
             {
+                _logger.LogError(exception: e, "error on get user by login");
                 return null;
             }
         }
@@ -111,6 +113,7 @@ namespace Junto.Infra.Repository
             }
             catch (Exception e)
             {
+                _logger.LogError(exception: e, "error on get user");
                 return null;
             }
         }
@@ -132,6 +135,7 @@ namespace Junto.Infra.Repository
             }
             catch (Exception e)
             {
+                _logger.LogError(exception: e, "error on update user");
                 await transaction?.RollbackAsync();
             }
             finally
@@ -150,6 +154,7 @@ namespace Junto.Infra.Repository
             }
             catch (Exception e)
             {
+                _logger.LogError(exception: e, "error on verify user login on update");
                 return false;
             }
         }
@@ -162,6 +167,7 @@ namespace Junto.Infra.Repository
             }
             catch (Exception e)
             {
+                _logger.LogError(exception: e, "error on verify user login on create");
                 return false;
             }
         }

@@ -13,7 +13,7 @@ namespace Junto.Api.Infra
             var errors = context.ModelState.Values.SelectMany(x => x.Errors.Select(e => e.ErrorMessage))
                         .ToList();
 
-            var result = new
+            var result = new FluentValidationModelStateErrors
             {
                 Message = "Validation Errors",
                 Errors = errors

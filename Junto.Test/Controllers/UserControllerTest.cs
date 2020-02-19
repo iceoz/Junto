@@ -233,7 +233,7 @@ namespace Junto.Test.Controllers
         [InlineData("")]
         [InlineData("p")]
         [InlineData(null)]
-        public async Task UpdateUserPasswordInvalidModel(string password)
+        public void UpdateUserPasswordInvalidModel(string password)
         {
             var validator = new UpdateUserPasswordValidator();
             var result = validator.Validate(new UpdateUserPassword() { Password = password });
@@ -302,19 +302,44 @@ namespace Junto.Test.Controllers
         [Fact]
         public async Task DeleteUserNotFound()
         {
-
+            var context = DatabaseHelper.GetContext();
+            var repository = new UserRepository(context, new Mock<ILogger<UserRepository>>().Object);
+            var service = new UserService(repository);
+            var controller = new UserController(service, new Mock<IHttpContextAccessor>().Object);
+            var exception = await Assert.ThrowsAsync<InvalidUserException>(() => controller.Delete(65));
+            exception.Should().BeOfType<InvalidUserException>().Which.Message.Should().Be("user not found");            
         }
 
         [Fact]
         public async Task DeleteUserSuccess()
         {
+            var context = DatabaseHelper.GetContext();
 
+            context.User.Add(new User() { Id = 65, Login = "test123", Name = "test123", Password = "test123" });
+            await context.SaveChangesAsync();
+
+            var repository = new UserRepository(context, new Mock<ILogger<UserRepository>>().Object);
+            var service = new UserService(repository);
+            var controller = new UserController(service, new Mock<IHttpContextAccessor>().Object);
+            var result = await controller.Delete(65);
+            Assert.IsType<OkResult>(result);
+
+            context.User.Should().HaveCount(0);
         }
 
         [Fact]
         public async Task DeleteUserFail()
         {
+            var userId = 15;
 
+            var repository = new Mock<IUserRepository>();
+            repository.Setup(x => x.Update(It.IsAny<User>())).ReturnsAsync(false);
+            repository.Setup(x => x.GetOne(userId)).ReturnsAsync(new User() { Id = userId, Login = "abcd1234", Name = "abcd1234", Password = "asdasda" });
+
+            var service = new UserService(repository.Object);
+            var controller = new UserController(service, new Mock<IHttpContextAccessor>().Object);
+            var exception = await Assert.ThrowsAsync<UnexpectedUserException>(() => controller.Delete(userId));
+            exception.Should().BeOfType<UnexpectedUserException>().Which.Message.Should().Be("cant delete user");
         }
 
     }
